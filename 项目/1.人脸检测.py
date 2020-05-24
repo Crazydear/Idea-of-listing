@@ -48,3 +48,23 @@ while (True):
 
 capture.release()
 cv2.destroyAllWindows()
+
+
+# 定时关机提示，请不要修改
+
+import tkinter as tk
+
+window = tk.Tk()
+window.wm_geometry('{}x{}+{}+{}'.format(350, 100, 500, 300))
+window.wm_attributes('-topmost', 1)     # 窗口置顶
+window.wm_attributes("-alpha", 0.75)    # 窗口透明度
+window.wm_title("关机提示")
+window.wm_iconbitmap('tt.ico')
+greeting = tk.Label(text="计算机将在90s后关机，请保存好文档",
+                    width=50,
+                    height=5,
+                    font=("宋", 12)
+                    )
+greeting.pack()
+window.mainloop()
+
