@@ -9,4 +9,5 @@
 
 2. 批量从邮箱下载附件（2020-5-24）
 
-3. GIF背景透明化处理（2020-5-24）基本实现，但是还有细节问题尚未实现[项目](https://github.com/Crazydear/Idea-of-listing/blob/master/%E9%A1%B9%E7%9B%AE/3.GIF%E8%83%8C%E6%99%AF%E9%80%8F%E6%98%8E%E5%8C%96.py)
+3. GIF背景透明化处理（2020-5-24）[项目](https://github.com/Crazydear/Idea-of-listing/blob/master/%E9%A1%B9%E7%9B%AE/3.GIF%E8%83%8C%E6%99%AF%E9%80%8F%E6%98%8E%E5%8C%96.py)
+    基本实现，但是还有细节问题尚未实现
