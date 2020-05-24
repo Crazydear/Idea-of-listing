@@ -1,7 +1,6 @@
 from PIL import Image
 import os
 
-
 class Gif_transparent:
     def __init__(self,gifFile):
         self.gifFileName = gifFile
